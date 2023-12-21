@@ -92,6 +92,8 @@ fun CaptureScreen(
         ) {
 
             LaunchedEffect(countdownValue) {
+                val context = LocalContext.current
+
                 if (leftoverPictureValue > 0) {
                     delay(1000)
                     --countdownValue

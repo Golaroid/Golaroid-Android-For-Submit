@@ -56,7 +56,7 @@ fun ChristmasFrame(
                 .zIndex(-1f)
         ) {
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(top = 37.dp, bottom = 8.dp)
@@ -68,7 +68,7 @@ fun ChristmasFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -80,7 +80,7 @@ fun ChristmasFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -92,7 +92,7 @@ fun ChristmasFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .fillMaxWidth()
@@ -127,7 +127,7 @@ fun RupeeFrame(
                 .zIndex(-1f)
         ) {
             Image(
-                painter = painterResource(id = R.drawable.j1),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(top = 37.dp, bottom = 8.dp)
@@ -139,7 +139,7 @@ fun RupeeFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.j2),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -151,7 +151,7 @@ fun RupeeFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.j3),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -163,7 +163,7 @@ fun RupeeFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.j4),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .fillMaxWidth()
@@ -198,7 +198,7 @@ fun WinterFrame(
                 .zIndex(-1f)
         ) {
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(top = 37.dp, bottom = 8.dp)
@@ -210,7 +210,7 @@ fun WinterFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -222,7 +222,7 @@ fun WinterFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -234,7 +234,7 @@ fun WinterFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .fillMaxWidth()
@@ -272,7 +272,7 @@ fun WantedFrame(
                 .zIndex(-1f)
         ) {
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(top = 37.dp, bottom = 7.dp)
@@ -284,7 +284,7 @@ fun WantedFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -296,7 +296,7 @@ fun WantedFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -308,7 +308,7 @@ fun WantedFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .fillMaxWidth()
@@ -345,7 +345,7 @@ fun PangPangFrame(
                 .zIndex(-1f)
         ) {
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(top = 37.dp, bottom = 7.dp)
@@ -357,7 +357,7 @@ fun PangPangFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -369,7 +369,7 @@ fun PangPangFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -381,7 +381,7 @@ fun PangPangFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .fillMaxWidth()
@@ -420,7 +420,7 @@ fun GolaroidGrayFrame(
                 .zIndex(-1f)
         ) {
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(top = 37.dp, bottom = 7.dp)
@@ -432,7 +432,7 @@ fun GolaroidGrayFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -444,7 +444,7 @@ fun GolaroidGrayFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -456,7 +456,7 @@ fun GolaroidGrayFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .fillMaxWidth()
@@ -495,7 +495,7 @@ fun GolaroidBlackFrame(
                 .zIndex(-1f)
         ) {
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(top = 37.dp, bottom = 7.dp)
@@ -507,7 +507,7 @@ fun GolaroidBlackFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -519,7 +519,7 @@ fun GolaroidBlackFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .padding(bottom = 8.dp)
@@ -531,7 +531,7 @@ fun GolaroidBlackFrame(
             )
 
             Image(
-                painter = painterResource(id = R.drawable.test_image_one_piece),
+                painter = painterResource(id = R.drawable.dongwk),
                 contentDescription = null,
                 modifier = Modifier
                     .fillMaxWidth()

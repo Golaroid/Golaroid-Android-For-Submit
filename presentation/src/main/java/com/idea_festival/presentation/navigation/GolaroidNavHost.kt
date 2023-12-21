@@ -19,9 +19,11 @@ import com.idea_festival.presentation.ui.main.navigation.mainScreen
 import com.idea_festival.presentation.ui.main.navigation.navigateToMain
 import com.idea_festival.presentation.ui.search_result.navigation.existCodeScreen
 import com.idea_festival.presentation.ui.search_result.navigation.navigateToExistCode
+import com.idea_festival.presentation.ui.search_result.navigation.navigateToNoExistCode
 import com.idea_festival.presentation.ui.search_result.navigation.noExistCodeScreen
 import com.idea_festival.presentation.ui.select_frame.navigation.navigateToPrintSuccess
 import com.idea_festival.presentation.ui.select_frame.navigation.navigateToSelectFrame
+import com.idea_festival.presentation.ui.select_frame.navigation.printSuccessScreen
 import com.idea_festival.presentation.ui.select_frame.navigation.selectFrameScreen
 import com.idea_festival.presentation.ui.select_image.navigation.navigateToSelectImage
 import com.idea_festival.presentation.ui.select_image.navigation.selectImageScreen
@@ -40,8 +42,8 @@ fun GolaroidNavHost(
         modifier = modifier
     ) {
         mainScreen(
-            onTakePictureButtonClick = navController::navigateToIssuedCode,
-            onSearchButtonClick = navController::navigateToExistCode,
+            onTakePictureButtonClick = navController::navigateToCapture,
+            onSearchButtonClick = navController::navigateToNoExistCode,
             onImageClick = {}
         )
 
@@ -84,6 +86,10 @@ fun GolaroidNavHost(
         selectFrameScreen(
             onNextButtonClick = navController::navigateToMain,
             onPrintButtonClick = navController::navigateToPrintSuccess
+        )
+
+        printSuccessScreen(
+            onNextButtonClick = navController::navigateToMain
         )
     }
 }
