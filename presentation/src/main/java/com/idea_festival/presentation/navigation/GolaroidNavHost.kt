@@ -40,7 +40,7 @@ fun GolaroidNavHost(
         modifier = modifier
     ) {
         mainScreen(
-            onTakePictureButtonClick = navController::navigateToCapture,
+            onTakePictureButtonClick = navController::navigateToIssuedCode,
             onSearchButtonClick = navController::navigateToExistCode,
             onImageClick = {}
         )

@@ -1,6 +1,7 @@
 package com.idea_festival.design_system.component.icon
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
@@ -147,12 +148,20 @@ fun WhiteCircleIcon(
 @Composable
 fun CheckIcon(
     modifier: Modifier = Modifier,
+    isChecked: Boolean,
+    onCheckedChange: (Boolean) -> Unit,
 ) {
-    Image(
-        painter = painterResource(id = R.drawable.ic_check),
-        contentDescription = "흰색 체크 아이콘",
-        modifier = modifier
-    )
+
+        Image(
+            painter = if (isChecked){
+                painterResource(id = R.drawable.checked_icon)
+            } else {
+                painterResource(id = R.drawable.ic_check)
+            },
+            contentDescription = "흰색 체크 아이콘",
+            modifier = modifier.clickable { onCheckedChange(!isChecked) }
+        )
+
 }
 
 @Composable
